@@ -3,8 +3,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "v3": "*",
-        "serial": "github:calliope-net/serial#v0.0.3"
+        "v3": "*"
     },
     "files": [
         "main.blocks",
