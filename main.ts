@@ -22,6 +22,9 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     for (let Wert of text_list) {
         serial.writeLine("*" + Wert + "*" + Wert.length)
     }
+    for (let Wert of text_list) {
+        serial.writeLine("" + (Wert))
+    }
 })
 serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
     text_list.push(serial.readLine())
