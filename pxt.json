@@ -1,0 +1,25 @@
+{
+    "name": "at-konsole-73",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "serial": "github:calliope-net/serial#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.1.31",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
